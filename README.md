@@ -15,3 +15,6 @@ My notes on Java Performance Tuning
   - The client virtual machine is tuned to reduce the startup time and memory footprint.
 - Server virtual Machine
   - This virtual machine is designed to maximize program execution speed. It can be invoked by using the -server command-line option when launching the application.
+  
+- Heap Area
+  - The heap area represents the runtime data area, from which the memory is allocated for all class instances and arrays, and is created during the virtual machine startup.
