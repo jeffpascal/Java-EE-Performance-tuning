@@ -18,3 +18,4 @@ My notes on Java Performance Tuning
   
 - Heap Area
   - The heap area represents the runtime data area, from which the memory is allocated for all class instances and arrays, and is created during the virtual machine startup.
+  - The heap storage for objects is reclaimed by an automatic storage management system. The heap may be of a fixed or dynamic size, and the memory allocated for the heap area does not need to be contiguous
